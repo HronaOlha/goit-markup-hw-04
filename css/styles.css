@@ -153,6 +153,7 @@ body {
 }
 
 .header-link {
+  display: flex;
   padding: 32px 0;
 }
 
@@ -190,6 +191,11 @@ body {
   background-color: var(--accent-bgc);
   padding: 200px 0px;
   text-align: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
 }
 
 .hero-title {
@@ -368,4 +374,9 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.header-contact-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
