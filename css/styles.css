@@ -253,29 +253,15 @@ body {
   letter-spacing: 0.03em;
 }
 
-.benefits-items::before {
-  content: "";
-  display: block;
-  background-color: var(--second-color-bgc);
-  background-repeat: no-repeat;
-  background-position: center;
+.icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
-  border-radius: 4px;
   margin-bottom: 30px;
-}
-
-.benefits-items:nth-child(1)::before {
-  background-image: url("../images/antenna.svg");
-}
-.benefits-items:nth-child(2)::before {
-  background-image: url("../images/clock.svg");
-}
-.benefits-items:nth-child(3)::before {
-  background-image: url("../images/diagram.svg");
-}
-.benefits-items:nth-child(4)::before {
-  background-image: url("../images/astronaut.svg");
+  background-color: var(--second-color-bgc);
+  border-radius: 4px;
 }
 
 /*-------------------------- SERVICES --------------------------*/
